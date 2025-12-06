@@ -1,3 +1,4 @@
+```markdown
 # my-first-bot
 
 파이썬으로 만든 연습용 디스코드 봇입니다.  
@@ -35,7 +36,9 @@
 
 프로젝트 폴더 예시:
 
+```text
 C:\Users\사용자이름\dev\discord-bot
+```
 
 ---
 
@@ -116,7 +119,9 @@ pip install -U discord.py python-dotenv
 
 프로젝트 루트(`discord-bot` 폴더)에 `.env` 파일을 만들고, 아래 내용을 작성합니다.
 
+```env
 DISCORD_TOKEN=여기에_디스코드_봇_토큰_붙여넣기
+```
 
 > ⚠ `.env` 파일은 절대 GitHub에 올리지 않습니다.
 > `.gitignore` 에 `.env` 를 반드시 추가해야 합니다.
@@ -243,20 +248,26 @@ py bot.py
 
 터미널에서 예를 들어 다음과 같은 로그가 나오면 성공입니다.
 
+```text
 INFO     discord.client logging in using static token
 로그인 완료: my-first-bot#1234 (ID: 123456789012345678)
 봇이 준비되었습니다.
+```
 
 ### 7-2. 디스코드에서 테스트
 
 1. 디스코드에서 봇이 추가된 서버의 `#일반` 채널을 엽니다.
 2. 메시지로 아래를 입력합니다.
 
+```text
 !ping
+```
 
 3. 봇이 다음과 같이 응답하면 정상 동작입니다.
 
+```text
 pong
+```
 
 ---
 
@@ -366,4 +377,4 @@ git push
 이런 식으로 기록을 쌓아가면,
 나중에 “어디서 꼬였는지”를 되돌아보거나, 다른 서버로 옮길 때도 훨씬 수월해집니다.
 
----
+```
